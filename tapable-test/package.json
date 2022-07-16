@@ -1,0 +1,21 @@
+{
+  "name": "tapable-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sync-hook": "node src/SyncHook.js",
+    "sync-bail-hook": "node src/SyncBailHook.js",
+    "sync-waterfall-hook": "node src/SyncWaterfallHook.js",
+    "sync-loop-hook": "node src/SyncLoopHook.js",
+    "async-series-hook": "node src/AsyncSeriesHook.js",
+    "async-series-bail-hook": "node src/AsyncSeriesBailHook.js",
+    "async-series-waterfall-hook": "node src/AsyncSeriesWaterfallHook.js",
+    "async-parallel-hook": "node src/AsyncParallelHook.js",
+    "async-parallel-bail-hook": "node src/AsyncParallelBailHook.js"
+    
+  },
+  "dependencies": {
+    "tapable": "^2.2.1"
+  }
+}
